@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+
+/* NAV Section */
+
+/* HEADER Section */
+
+/* MAIN Section */
+
+#main{
+    text-align: center;
+}
+.main__info--title {
+    color: green;
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.main__info--para {
+    color: black;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.shapes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+.shape__circle--teal{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: teal;
+}
+
+.shape__oval--orange{
+    width: 200px;
+    height: 100px;
+    margin: 0 10%;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+
+.shape__rhombus--red{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transform: skew(-25deg);
+    background-color: red;
+}
+
+
+/* CONTACT Section */
+
+/* FOOTER Section */
+
+
+/* MOBILE RESPONSIVE */
+
+/* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+    nav {
+        height: 68px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
