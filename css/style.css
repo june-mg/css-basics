@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: yellow;
+    background-color: whitesmoke;
 }
 
 .row {
@@ -15,6 +15,44 @@
 
 }
 
+.text__green--links {
+    color: green;
+}
+
+.links {
+    margin: 20px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links__heading {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.links__aref{
+    font-size: 30px;
+    font-style: italic;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: grey
+}
+
+a:hover {
+    color: aqua
+}
+
+a:active {
+    color: green;
+}
+
 
 /* NAV Section */
 
@@ -22,9 +60,10 @@
 
 /* MAIN Section */
 
-#main{
+#main {
     text-align: center;
 }
+
 .main__info--title {
     color: green;
     font-size: 50px;
@@ -37,15 +76,15 @@
     font-size: 25px;
 }
 
-.shapes{
+.shapes {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 40px;
     padding: 50px;
 }
 
-.shape__circle--teal{
+.shape__circle--teal {
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -53,7 +92,7 @@
     background-color: teal;
 }
 
-.shape__oval--orange{
+.shape__oval--orange {
     width: 200px;
     height: 100px;
     margin: 0 10%;
@@ -62,13 +101,38 @@
 }
 
 
-.shape__rhombus--red{
+.shape__rhombus--red {
     width: 100px;
     height: 100px;
     margin: 10px;
     transform: skew(-25deg);
     background-color: red;
 }
+
+.text__shadows {
+    text-shadow: 5px 7px 5px green, -5px -7px 5px green;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+}
+
+.img__shadow--box-shadow {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, .6);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.img__shadow {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
 
 
 /* CONTACT Section */
